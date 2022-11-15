@@ -4,3 +4,4 @@
 *.scss.map
 sass/**
 **/sass
+**/.DS_Store
