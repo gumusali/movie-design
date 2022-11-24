@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/aed7761cc3.js" crossorigin="anonymous"></script>
-    <title>Detail</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="https://kit.fontawesome.com/aed7761cc3.js" crossorigin="anonymous"></script>
+        <title>Detail</title>
+    </head>
     <body>
         <main>
+            <!-- mobile menu button -->
+            <button class="open-menu-mobile">
+                <i class="fa fa-bars"></i>
+            </button>
+
             <!-- section left -->
             <section class="left">
+                <!-- mobile menu close button -->
+                <button class="close-menu-mobile">
+                    <i class="fa fa-circle-xmark"></i>
+                </button>
+
+                <!-- search mobile -->
+                <div class="search-mobile">
+                    <form action="" method="post" onsubmit="return false">
+                        <input type="text" placeholder="Search" />
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- brand -->
                 <div class="brand">Moovie</div>
 
                 <div class="menu">
@@ -75,6 +94,10 @@
             </section>
             <!-- section middle -->
             <section class="middle">
+                <!-- mobile-brand -->
+                <div class="brand-mobile">Moovie</div>
+
+                <!-- details -->
                 <div class="details">
                     <div class="title">John Wick 3: Parabellum</div>
                     
@@ -197,5 +220,8 @@
                 </div>
             </section>
         </main>
+
+        <!-- scripts -->
+        <script src="assets/js/index.js"></script>
     </body>
 </html>
